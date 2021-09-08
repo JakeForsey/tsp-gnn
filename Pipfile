@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "==1.9.0"
+numpy = "*"
+torch-scatter = "*"
+torch-sparse = "*"
+torch-geometric = "*"
+jupyter = "*"
+matplotlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
